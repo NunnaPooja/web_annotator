@@ -7,6 +7,7 @@
       "storage",
       "activeTab",
       "declarativeContent",
+      "commands",
       "tabs"
     ],
     "background": {
@@ -22,10 +23,18 @@
     "commands": {
       "highlight": {
         "suggested_key": {
-          "default": "Ctrl+Shift+H"
+          "default": "Ctrl+Shift+H",
+           "mac": "MacCtrl+Shift+H"
         },
         "description": "Highlight selected text"
-      }
+      },
+      "annotate": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "MacCtrl+Shift+A"
+      },
+      "description": "Annotate selected text"
+    }
     },
     "action": {
       "default_popup": "popup.html",

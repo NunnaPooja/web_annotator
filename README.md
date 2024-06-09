@@ -9,7 +9,9 @@ Web Annotator is a versatile Chrome extension designed to empower users with ann
 *   **Persistence:** Annotations persist across browser sessions, ensuring saved highlights and notes are always available.
 *   **Customization Options:** Customize highlight colors and styles to match personal preferences.
 *   **Search and Filter:** Easily find annotations or filter them by date, category, or keyword.
-*   **Export and Share:** Share annotated pages with highlights and notes or save them for offline use.
+*   **Export and Share:** Share annotated pages with highlights and notes or save them for offline use as
+*    - **PDF**
+     - **JSON File**
 *   **Keyboard Shortcuts:** Use keyboard shortcuts for quick annotation, highlighting, and navigation.
 *   **Responsive Design:** The extension interface adapts seamlessly to different screen sizes and resolutions for optimal usability.
 ## Installation

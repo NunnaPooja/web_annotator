@@ -1,0 +1,138 @@
+body {
+  font-family: 'Brush Script MT', sans-serif;
+  background-color: #f0f0f0; 
+  margin: 0;
+  padding: 10px;
+  height:200px;
+  width: 450px; 
+}
+
+
+h1.stylish-heading {
+  font-family: 'Lobster', cursive;
+  font-size: 26px; 
+  margin: 5px 5px 5px 5px; 
+  text-align: center;
+  color: #6b52ae; 
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction:row;
+  gap:15px; 
+}
+
+/* Row styles */
+.row {
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+}
+
+/* Label styles */
+label {
+  font-size: 15px; 
+margin-top: 10px;
+margin-bottom: 10px;
+  color: #555; 
+}
+#startDate {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+#endDate {
+  margin-top: 10px;
+margin-bottom: 10px; 
+}
+/* Text Input */
+input[type="text"], input[type="date"] {
+  width: calc(100% - 20px);
+  padding: 0px;
+  font-size: 15px; 
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Color Input */
+input[type="color"] {
+  width: 50px;
+  height: 40px;
+  align-self: le;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+}
+
+/* Hover Effect */
+input[type="text"]:focus, input[type="date"]:focus {
+  border-color: dodgerblue;
+}
+
+/* Button styles */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  gap: 50px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Save button */
+button#save {
+  background-color: #4cafa3;
+  color: white;
+}
+
+/* Export button */
+button#exportjson{
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: black;
+}
+.row:nth-child(2) {
+    margin-top: 10px;
+  }
+
+button#exportpdf {
+  margin-bottom: 10px; 
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Search and filter buttons */
+button#search{
+  background-color: #f0e04e;
+  color: black;
+} 
+button#filterByDate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f0e04e;
+  color: black;
+}
+
+
+/* Button hover effect */
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05); 
+}
+
+/* Annotations styles */
+#annotations {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #777;
+  
+}
+
+
